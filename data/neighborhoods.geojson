@@ -1,0 +1,328 @@
+﻿{
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "cost": "",
+        "description": "",
+        "img": "",
+        "name": "Brier Hill",
+        "population": "",
+        "rating": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -80.668642,
+          41.121691
+        ],
+        "type": "Point"
+      },
+      "id": "07c0f62b2cc0ab6fd68ab8f523505fa0"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cost": "",
+        "description": "",
+        "img": "",
+        "name": "Lansingville",
+        "population": "",
+        "rating": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -80.632623,
+          41.07411
+        ],
+        "type": "Point"
+      },
+      "id": "1c6e8b9cecf1dfa75f2bee8ce81aa2de"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cost": "",
+        "description": "",
+        "img": "",
+        "name": "Oak Hill",
+        "population": "",
+        "rating": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -80.662559,
+          41.092036
+        ],
+        "type": "Point"
+      },
+      "id": "26ffff591462ad6bdd7aca65b534e77b"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cost": "",
+        "description": "",
+        "img": "",
+        "name": "Steelton",
+        "population": "",
+        "rating": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -80.685509,
+          41.114969
+        ],
+        "type": "Point"
+      },
+      "id": "2f4080fbf2506371c8fff8a4e2b438bb"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cost": "",
+        "description": "",
+        "img": "",
+        "name": "Youngstown State University",
+        "population": "",
+        "rating": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -80.644414,
+          41.106266
+        ],
+        "type": "Point"
+      },
+      "id": "317f0eae50622f081b63a02e2cc8e787"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cost": "",
+        "description": "",
+        "img": "",
+        "name": "Warren",
+        "population": "",
+        "rating": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -80.66522,
+          41.08088
+        ],
+        "type": "Point"
+      },
+      "id": "3deb78087b3ef892bd48b3cd4a7462eb"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cost": "",
+        "description": "",
+        "img": "",
+        "name": "Wick Park",
+        "population": "",
+        "rating": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -80.642269,
+          41.116097
+        ],
+        "type": "Point"
+      },
+      "id": "5c4ea120e1f57a8501ad68fc7eff6708"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cost": "",
+        "description": "",
+        "img": "",
+        "name": "Sharon Line-McGuffey Heights",
+        "population": "",
+        "rating": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -80.613653,
+          41.114751
+        ],
+        "type": "Point"
+      },
+      "id": "74661c289cac1e8d2418ad317ed1301d"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cost": "",
+        "description": "",
+        "img": "",
+        "name": "Mahoning Commons ",
+        "population": "",
+        "rating": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -80.664161,
+          41.101868
+        ],
+        "type": "Point"
+      },
+      "id": "8591178ae1ff0eadaae4bca8096fefaa"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cost": "",
+        "description": "",
+        "img": "",
+        "name": "Schenley",
+        "population": "",
+        "rating": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -80.686507,
+          41.092162
+        ],
+        "type": "Point"
+      },
+      "id": "8ff88e2cebe66a34af9c4488f41e56b3"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cost": "",
+        "description": "",
+        "img": "",
+        "name": "East Side ",
+        "population": "",
+        "rating": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -80.625638,
+          41.097551
+        ],
+        "type": "Point"
+      },
+      "id": "961998ca72b6f01bde49fb67536993d5"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cost": "",
+        "description": "",
+        "img": "",
+        "name": "Lower Gibson",
+        "population": "",
+        "rating": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -80.644963,
+          41.0875
+        ],
+        "type": "Point"
+      },
+      "id": "9cc10c270de249b1a098bd027192700e"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cost": "",
+        "description": "",
+        "img": "",
+        "name": "Erie",
+        "population": "",
+        "rating": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -80.653578,
+          41.081632
+        ],
+        "type": "Point"
+      },
+      "id": "a1ff56936feae472547ccf15362e1c60"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cost": "",
+        "description": "",
+        "img": "",
+        "name": "Downtown",
+        "population": "",
+        "rating": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -80.648964,
+          41.100695
+        ],
+        "type": "Point"
+      },
+      "id": "b68abd492db493d87fe9653d4d06495a"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Arlington",
+        "description": "Bordering the YSU campus, Arlington is a neighborhood with a low cost of living and new modern apartments that is home to many YSU students and faculty. The Village of Arlington is a 20-million dollar project made possible through low income housing tax credits to the Youngstown Metropolitan Housing Authority.",
+        "population": 2000,
+        "cost": "$3000",
+        "rating": "unstable",
+        "img": "img goes here "
+      },
+      "geometry": {
+        "coordinates": [
+          -80.658536,
+          41.108903
+        ],
+        "type": "Point"
+      },
+      "id": "b6a5dc1fc9a07c4c8073583682d47ea4"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cost": "",
+        "description": "",
+        "img": "",
+        "name": "Kirkmere ",
+        "population": "",
+        "rating": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -80.692162,
+          41.067967
+        ],
+        "type": "Point"
+      },
+      "id": "ced43245411b743ef1c3de1b276cb491"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "cost": "",
+        "description": "",
+        "img": "",
+        "name": "Idora",
+        "population": "",
+        "rating": ""
+      },
+      "geometry": {
+        "coordinates": [
+          -80.679685,
+          41.074227
+        ],
+        "type": "Point"
+      },
+      "id": "ede68244a73b2e45093368b2c5eff7b3"
+    }
+  ],
+  "type": "FeatureCollection"
+}

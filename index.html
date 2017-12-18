@@ -1,0 +1,222 @@
+<html>
+<head>
+	<meta charset='utf-8' />
+	<title>Understanding Youngstown's Vacant Land</title>
+	<meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+	<!-- Link to JQuery library (used for modal) -->	
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+
+	<!-- Link to Mapbox GL JS library -->	
+	<script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.42.2/mapbox-gl.js'></script>
+	<!-- Link to Mapbox GL JS css stylesheet -->	
+	<link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.42.2/mapbox-gl.css' rel='stylesheet' />
+
+	<!-- Link to d3 -->
+	<script src="https://d3js.org/d3.v4.min.js"></script>
+
+	<!-- Link to our custom stylesheet -->	
+	<link rel="stylesheet" href="styles.css">
+
+</style>
+
+</head>
+
+
+
+<body>
+<div id="splashscreen">
+<div class = 'intro'>
+Understanding Youngstown's Vacant Land
+<h5> Intentional Shrinkage and the Impact on Neighborhood Character </h5>
+</div>
+<a href="#" class="enter_link"><h4>ENTER THE WEBSITE</h4></a>
+</div>
+
+	<nav id="menu"></nav>
+	<!-- Map  -->	
+	<div id="map"></div>
+
+	<div class= 'map-overlay4'>
+		<h1>A CITY OF NEIGHBORHOODS</h1>
+		<div id ='info-window-body'>
+			<p><font size="4.5"> In 2006, the city of Youngstown, Ohio walked away from the most fundamental assumption of economic development and city planning: the idea that a city needs to grow. With a rapidly dwindling population, the city commmited to shrinking by demolishing thousands of empty houses, and offering financial help and moving assistance to those left behind.
+			</p></font>
+			<p><font size="4.5">
+				However, 11 years later, it is clear the Youngstown has failed to shrink in a smart, organized way, leaving thousands of people in some neighborhoods and dozen in others. This website seeks to preserve the many histories of a city in flux, recognizing the impact of shrinkage on the economic, cultural and social character of Youngstown, once defined by its strong neighborhood identities. 
+			</p></font>
+			<h3>
+				SCROLL THROUGH NEIGHBORHOODS TO LEARN MORE.
+			</h3>
+		</div>
+
+			<div id="features">
+				<section id='downtown' class='active'>
+					<h2>DOWNTOWN</h2>
+					<p><img src="/img/downtown.jpg" align="right" style="padding-right:10px;padding-left:10px;padding-top:10px;width:300px;"> Downtown Youngstown is is the heart and soul of the City and the region.It is here John Young landed and drafted the original plan for Youngstown, and the streets he laid out in 1796 still define the Downtown neighborhood. From this core, Youngstown spread out in all directions, and as it did, it built a true downtown that included some of Americas early skyscrapers as the men that designed New York and Chicago also worked in Youngstown. Th is built environment in the core cannot be duplicated in a sprawl driven suburban economy and provides unique opportunities for redevelopment.metropolitan area.</p>
+					<h6><font color="#f0979c"> Click on Buildings for More Information </font></h6>
+				</section>
+				<section id='arlington'>
+					<h2>ARLINGTON</h2>
+					<p><img src="/img/arlington.jpg" align="left" style="padding-right:10px;padding-top:10px;width:300px;">The Arlington neighborhood grew as a strong working class area with strong Victorian influences. Large boarding houses and smaller single family residences shared a Victorian architectural style was so prevalent that the neighborhoodeventually was listed on the National Inventory of Historic Places as the Arlington Heights Historic District.
+					<p>Unfortunately designation on its own saves nothing and this asset slipped away as speculation, disinvestment and eventual University expansion led to the almost total removal of the historic structures that made this neighborhood unique.</p>
+				<h6><font color="#f0979c"> Click on Buildings for More Information </font></h6>
+				</section>
+				<section id='ysu'>
+					<h2>YOUNGSTOWN STATE UNIVERSITY</h2>
+					<p><img src="/img/ysu.jpg" align="right" style="padding-right:10px;padding-left:10px;padding-top:10px;width:300px;">The university's origins trace back to 1908, when the local branch of the YMCA established a school of law within the Youngstown Association School. In 1921, the school became known as the Youngstown Institute of Technology and offered its first evening courses. In 1928, a year after establishing the College of Arts and Sciences, the institute once again changed its name to Youngstown College. In 1955, Youngstown College was renamed as Youngstown University, an indication of the school's broadening curriculum. This is currently the most vibrant neighborhood in the city due to city-university partnerships.</p>
+					<h6><font color="#f0979c"> Click on Buildings for More Information </font></h6>
+				</section>
+				<section id='wick'>
+					<h2>WICK PARK</h2>
+					<p><img src="/img/wickpark.jpg" align="left" style="padding-right:10px;padding-top:10px;width:200px;">Wick Park, a gift to the City from the family whose name it bears, was designed as an open space with horse trails. It straddled the City’s northern border in 1880 and by 1890 was entirely within the city limits. The area adjacent to the park and on Fifth Avenue north of the park was the domain of Youngstown’s rich and famous.</p>
+					<p>The trappings of wealth faded with distance from Wick Park and Fifth Avenue. Working class apartments and houses filled in the residential land between Wick Avenue and Elm Street, and along the hillside above Andrews Avenue.</p>
+					<p> Many residential structures still remain with uses ranging from funeral homes to group homes, while much of the northern extent of Fifth Avenue retains its status with an active upper end real estate market.</p>
+					<h6><font color="#f0979c"> Click on Buildings for More Information </font></h6>
+				</section>
+				<section id='brier'>
+					<h2>BRIER HILL</h2>
+					<p><img src="/img/brierhill.jpg" align="left" style="padding-right:10px;width:200px;">The Brier Hill neighborhood grew on the homestead of early Youngstown industrialist and Ohio’s Civil War governor, David Tod. Tod’s mines provided coal for his mills and subdivision of his land provided housing for the miners and iron workers that provided muscle for such enterprises. Brier Hill grew as an unincorporated village inside Youngstown Township until it was absorbed by the City in stages between 1880 and 1900.</p>
+					<p>The rapid expansion of industry was a pull factor for the entire Mahoning Valley and Brier Hill served as an entry point for early immigrants, Welsh, Irish, Italian and African American as they, like the raw materials they processed, coalesced and became the strength of a rapidly growing industrial region. The coal mines that fueled the iron industry are long gone and the old rooming houses are either razed or in various stages of disrepair.</p>
+					<h6><font color="#f0979c"> Click on Buildings for More Information </font></h6>
+				</section>
+				<section id='steelton'>
+					<h2>STEELTON</h2>
+					<p><img src="/img/steelton.jpg" align="right" style="padding-right:10px;padding-left:10px;padding-top:10px;width:300px;">The Steelton neighborhood is the oldest on the West Side and grew with the Ohio Works. The Carnegie Iron and Steel Company (U.S. Steel) built much of the original housing stock to accommodate its growing work force. Much of this turn of
+						the 20th century housing stock still exist in Steelton, and in general is well maintained.</p>
+						<p>Steelton grew during a period of eastern European immigration to the Mahoning Valley, and this heritage is visible on the built environment. Significant sacred landmarks dot the Steelton neighborhood proudly displaying their Ukrainian, Polish, Russian, Serbian and other ethnic lineages. </p>
+						<h6><font color="#f0979c"> Click on Buildings for More Information </font></h6>
+				</section>
+				<section id='commons'>
+					<h2>MAHONING COMMONS</h2>
+					<p> <img src="/img/mahoning.jpg" align="left" style="padding-right:10px;width:300px;">The Mahoning Commons neighborhood grew up on the relatively narrow fl ood plain on the south side of the Mahoning River. This neighborhood historically was a transportation and small industrial area with residential scattered throughout. It is the home of the City’s original water works, the historic B+O railroad station and the Western Reserve Transit Authority, located on the site of its predecessor, the Youngstown Transit Company.</p>
+					<h6><font color="#f0979c"> Click on Buildings for More Information </font></h6>
+				</section>
+				<section id='east'>
+					<h2>EAST SIDE</h2>
+					<p><img src="/img/east.jpg" align="right" style="padding-right:10px;padding-left:10px;padding-top:10px;width:300px;">Although Daniel Shehy purchased the entire eastern quadrant of Youngstown Township, the impact of Irish immigration is most visible in the East Side neighborhood. This neighborhood is the historic core of the East Side district, the majority of it coming into the City by 1880, the rest by 1900. Immaculate Conception Church and School, established by Irish Immigrants, still function in the neighborhood, and Irish street names, including Shehy Street, remain.
+						<p>Settlement in this neighborhood clustered initially on the east side of Crab Creek as residences of workers employed by the mills. Population spread east as industrial development sprawled along the Mahoning River.</p>
+						<h6><font color="#f0979c"> Click on Buildings for More Information </font></h6>
+				</section>
+				<section id='sharon'>
+					<h2>SHARON LINE-MCGUFFEY HEIGHTS</h2>
+					<p><img src="/img/sharon.jpg" align="left" style="padding-right:10px;width:300px;">The Sharon Line/McGuffey Heights neighborhood illustrates the impact of transportation links on early neighborhood development. The Sharon line section was literally a creation of the street car line that ran from Youngstown, through Hubbard and to Sharon, Pennsylvania. The line linked the mills in all three locations and allowed for an early version of a flexible labor force.</p>
+					<p>The line ran down the middle of Jacobs Road, and the Sharon Line neighborhood spread out from the tracks. Sharon Line grew in a small relatively self suffi cient neighborhood in the midst of the rural East Side.</p>
+					<h6><font color="#f0979c"> Click on Buildings for More Information </font></h6>
+				</section>
+				<section id='gibson'>
+					<h2>LOWER GIBSON</h2>
+					<p>Lower Gibson was not constrained by the ridge, but developed along what would become the industrial section of the Mahoning River fl oodplain. Lower Gibson was initially settled on the south bank fl ood plain, but as the mills expanded, worker housing was forced up the relatively steep embankment that is the gentler south east extension of ‘Impassible Ridge’. For the most part, Lower Gibson is now characterized by a mix of new brownfield industrial parks, residual and derelict industry and aging housing clinging to steep hillsides.</p>
+					<h6><font color="#f0979c"> Click on Buildings for More Information </font></h6>
+				</section>
+				<section id='lansingville'>
+					<h2>LANSINGVILLE</h2>
+					<p><img src="/img/lansingville.jpg" align="right" style="padding-right:10px;padding-left:10px;padding-top:10px;width:300px;">Approximate to Republic Steel’s Youngstown Plant and the Youngstown Sheet and Tube’s Campbell Works, Lansingville began as a mill worker neighborhood as land became scarce in Lower Gibson. Because the neighborhood expanded with the mills, Lansingville came into the City as part of three annexations between 1890 and 1929. Settled during a period of substantial Eastern European immigration, Lansingville developed as a predominantly Slovak ethnic neighborhood. Segments of this ethnic enclave still remain. Lansingville was built out to the city limit during the post World War II housing boom.</p>
+					<h6><font color="#f0979c"> Click on Buildings for More Information </font></h6>
+				</section>
+				<section id='erie'>
+					<h2>ERIE</h2>
+					<p>Erie, unlike Oak Hill, off ered no easy access to the top of the ridge. Th e northern section of the neighborhood became a part of the City just prior to 1900 and the remainder before 1910. The Erie neighborhood contains the area that was once occupied by the coal mining hamlet of Flint Hill, but other than a rail line, most traces of this settlement had faded away before city expansion.</p>
+					<h6><font color="#f0979c"> Click on Buildings for More Information </font></h6>
+				</section>
+				<section id='oak'>
+					<h2>OAK HILL</h2>
+					<p><img src="/img/oak hill.jpg" align="left" style="padding-right:10px;width:300px;">Oak Hill or pieces of was the first South Side Neighborhood to be incorporated into the City of Youngstown. Because what is now Oak Hill Avenue off ered the point of least resistance to the top of what was known as ‘Impassable Ridge’ and the relatively fl at land on the South Side, there was early settlement sections adjacent to Mahoning Commons which were in the initial municipal incorporation of 1869.</p>
+					<h6><font color="#f0979c"> Click on Buildings for More Information </font></h6>
+				</section>
+				<section id='warren'>
+					<h2>WARREN</h2>
+					<p>Warren grew as a working class neighborhood that infi lled between Market Street and the Idora neighborhood. Th e neighborhood was annexed into the City in two phases between 1890 and 1910 as the regions growing labor force caused residential expansion on the flatland south of the ridge.</p>
+					<h6><font color="#f0979c"> Click on Buildings for More Information </font></h6>
+				</section>
+				<section id='idora'>
+					<h2>IDORA</h2>
+					<p><img src="/img/idora.jpg" align="left" style="padding-right:10px;width:300px;">Idora grew as a trolley line neighborhood adjacent to Mill Creek Park with upper-class residents. Th e Volney Road section of this neighborhood was developed as housing for the wealthy with upper-middle and middle-class housing becoming more prevalent near Glenwood Avenue. Th e neighborhood takes its name from the trolley line that fueled its growth  and the amusement park that was at the end of the line. Th e Idora neighborhood became part of the City in 1929.</p>
+					<h6><font color="#f0979c"> Click on Buildings for More Information </font></h6>
+				</section>
+				<section id='kirkmire'>
+					<h2>KIRKMERE</h2>
+					<p>The Kirkmere neighborhood was extensively developed following World War II to fi ll the need for veterans housing. Named after the major arterials that border it, Kirk Road and Meridian Road, and with local streets named after WW II military engagements, this middle class neighborhood remains one of Youngstown’s strongest. </p>
+					<p>Initially settled along Bears Den Road because of the proximity to Mill Creek and the park, residential development hesitated to take hold in the area until after the coal mines ceased operations. Th e coal mining past still occasionally causes problems with shaft cave-ins, but this neighborhood has become among the most desirable in the City.</p>
+					<p>The City’s only market rate housing development in recent memory, Castle Court, was constructed off of Canfi eld Road in the late 1990s. The subdivision sold out, a testament to the vibrancy of the Kirkmere area.</p>
+					<h6><font color="#f0979c"> Click on Buildings for More Information </font></h6>
+				</section>
+				<section id='sch'>
+					<h2>SCHENLEY</h2>
+					<p> Early development in this neighborhood began along Mahoning Avenue and spread south. Like Belle Vista, the earliest settlement began at the Mill Creek/Mahoning confl uence. Th e section between Mill Creek and Belle Vista one block south of Mahoning was in the City by 1900, the rest of Schenley was part of the 1929 annexation. </p>
+					<p>The sections farthest west off of Mahoning have a mix of pre and post war middle class housing. Housing adjacent to Mill Creek Park is more substantial and exhibits a mix of historic and modern structures. Th e Mill Creek Park influence makes this the highest value housing in the Schenley neighborhood.</p>
+					<h6><font color="#f0979c"> Click on Buildings for More Information </font></h6>
+				</section>
+
+			</div>
+
+<!-- 			<br>
+			<button type='button' class='button-small' id="1">1</button>
+			<button type='button' class='button-small' id="2">2</button>
+			<button type='button' class='button-small' id="3">3</button>
+			<button type='button' class='button-small' id="4">4</button>
+			<button type='button' class='button-small' id="5">5</button>
+			<button type='button' class='button-small' id="6">6</button>
+			<button type='button' class='button-small' id="7">7</button>
+			<button type='button' class='button-small' id="8">8</button>
+			<button type='button' class='button-small' id="9">9</button>
+			<button type='button' class='button-small' id="10">10</button>
+			<button type='button' class='button-small' id="11">11</button>
+			<button type='button' class='button-small' id="12">12</button>
+			<button type='button' class='button-small' id="13">13</button>
+			<button type='button' class='button-small' id="14">14</button>
+			<button type='button' class='button-small' id="15">15</button>
+			<button type='button' class='button-small' id="16">16</button>
+			<button type='button' class='button-small' id="17">17</button> -->
+
+		</div>
+	</body>
+
+	<div class='map-overlay-timeline'>
+		<h2>CHANGE IN VACANT STRUCTURES OVER TIME</h2>
+		<input id='slider' type='range' min='2008' max='2016' step='2' value='2008' />
+		<h3>YEAR: <label id='year-label'>2008</label></h3>
+	</div>
+
+
+	<!-- Info window (shows info about parks when hovering over a park)  -->	
+	<div class='map-overlay'>
+		<h1 id="pagetitle">UNDERSTANDING YOUNGSTOWN'S VACANT LAND</h1>
+		<h2 id="subtitle"> Intentional Shrinkage and the Impact on Neighborhood Character</h2>
+	</div>	
+</div>
+
+<!-- Map legend (content populated by our javascript) -->	
+<div class='map-overlay2'></div>	
+<div class= 'map-overlay3' id="part-one">
+	<h1>VACANT STRUCTURES IN YOUNGSTOWN</h1>
+	<svg id="bar-chart" width="630" height="360"></svg>
+</div>
+
+
+
+<!-- "About this map" modal (hidden by default) -->	
+<div class='modal'>
+	<h2 class='modal-title'>ABOUT THIS PROJECT</h2>
+	<div class='modal-body'><p>This is a project located in Youngstown, Ohio which seeks to relate the city's numerous vacant residential and industrial properties to biophysical characteristics such as landcover and topography. This map was created in the Scripting Civic Engagement seminar at the University of Virginia (Fall 2017), taught by Andrea Hansen Phillips.</p><p>Map data courtesy of <a href='https://www.mapbox.com/studio/'>Mapbox Studio</a> and the <a href='https://cms.ysu.edu/administrative-offices/redi/regional-property-information-system-rpis'>Youngstown State University</a></p><p>For questions or to improve this map, contact <a href='mailto:ejc2mp@virginia.edu'>Liz Camuti</a></p></div>
+	<div class="fb-share-button" data-href="https://www.facebook.com/uvasarc/" data-layout="button_count" data-size="small" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.facebook.com%2Fuvasarc%2F&amp;src=sdkpreparse">Share</a></div>
+
+
+</body>
+<button class='close-button'>&times;</button>  	<!-- A special "x" character (the multiply sign) used in close buttons -->	
+</div>
+<div id='screen'></div>
+
+<!-- Button to hide or show "About this map" modal -->	
+<button type='button' class='button-default' id="about">ABOUT THIS MAP</button> <!-- Button to hide or show modal -->
+
+
+<!-- Link to our custom javascript -->	
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="map.js"></script>
+<!-- Custom javascript (d3) -->	
+<script src="scripts.js"></script>
+<script src="d3.min.js"></script>
+<script src="d3.js"></script>
+<script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.42.2/mapbox-gl.js'></script>
+</html>
