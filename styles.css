@@ -492,7 +492,7 @@ text { fill: black; }
 /*  width: 100%;
   height: 100%;*/ 
 /*  padding-top: 20px;*/
-  background: url('/img/coverbg.jpg') no-repeat center;
+  background: url('finalmap/img/coverbg.jpg') no-repeat center;
   background-color: white;
   -webkit-background-size: cover;
   -moz-background-size: cover;
